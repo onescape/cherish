@@ -18,7 +18,7 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/cherish](https://s
 
 | Supported actions | Supported events | Supported conditions |
 | --- | --- | --- |
-| Set bed's control state to {headUp, headDown, allUp, allDown, legUp, legDown, stop, zg, flat, quiteSleep, reset} | N/A | N/A |
+| Set bed's control state to {headUp, headDown, allUp, allDown, legUp, legDown, stop, zg, flat, quiteSleep, memoryA, memoryB} | N/A | N/A |
 
 ## Functions
 
@@ -31,7 +31,7 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/cherish](https://s
 
 | Type | Enum |
 | --- | --- |
-| string | {headUp, headDown, allUp, allDown, legUp, legDown, stop, zg, flat, quiteSleep, reset} |
+| string | {headUp, headDown, allUp, allDown, legUp, legDown, stop, zg, flat, quiteSleep, memoryA, memoryB} |
 
 ### Controller view type
 
@@ -43,7 +43,7 @@ Definition
 
 | Value | Action | Preview |
 | --- | --- | --- |
-| motion | {headUp, headDown, allUp, allDown, legUp, legDown, stop, zg, flat, quiteSleep, reset} | ![alt text](motion.png?raw=true) |
+| motion | {headUp, headDown, allUp, allDown, legUp, legDown, stop, zg, flat, quiteSleep, memoryA, memoryB} | ![alt text](motion.png?raw=true) |
 | twin | N/A | N/A |
 
 ## How-to : OAuth2
