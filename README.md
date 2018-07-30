@@ -1,6 +1,4 @@
-# Cherish Developer Guide
-=========
-
+Cherish Developer Guide
 
 # Table of Contents
 
@@ -247,8 +245,8 @@ The Cherish API is an interface for querying information from and enacting chang
 
 | Type | Screenshot |
 | --- | --- |
-| motion | ![alt text](type_motion.png?raw=true) |
-| twin | ![alt text](type_twin.png?raw=true) |
+| motion | ![alt text](type_motion.png?raw=true =320x) |
+| twin | ![alt text](type_twin.png?raw=true =320x) |
 
 
 ## Getting Started
