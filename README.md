@@ -245,8 +245,8 @@ The Cherish API is an interface for querying information from and enacting chang
 
 | Type | Screenshot |
 | --- | --- |
-| motion | ![alt text](type_motion.png?raw=true =320x) |
-| twin | ![alt text](type_twin.png?raw=true =320x) |
+| motion | ![alt text](type_motion.png=320x) |
+| twin | ![alt text](type_twin.png=320x) |
 
 
 ## Getting Started
@@ -260,7 +260,7 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/cherish](https://s
 
 ### Auth sample screenshot
 
-![alt text](oauth_swaggerhub.jpeg?raw=true)
+![alt text](oauth_swaggerhub.jpeg)
 
-![alt text](oauth_postman.jpeg?raw=true)
+![alt text](oauth_postman.jpeg)
 
