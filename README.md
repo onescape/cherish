@@ -1,7 +1,6 @@
-Cherish Developer Guide
+# Cherish Developer Guide
 
-# Table of Contents
-
+Table of Contents
 1. What is Cherish?
 2. Authentication
 3. Using API
@@ -245,8 +244,8 @@ The Cherish API is an interface for querying information from and enacting chang
 
 | Type | Screenshot |
 | --- | --- |
-| motion | ![alt text](type_motion.png=320x) |
-| twin | ![alt text](type_twin.png=320x) |
+| motion | ![](type_motion.png =320x569) |
+| twin | ![](type_twin.png =320x569) |
 
 
 ## Getting Started
@@ -260,7 +259,7 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/cherish](https://s
 
 ### Auth sample screenshot
 
-![alt text](oauth_swaggerhub.jpeg)
+![](oauth_swaggerhub.jpeg)
 
-![alt text](oauth_postman.jpeg)
+![](oauth_postman.jpeg)
 
