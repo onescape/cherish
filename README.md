@@ -244,8 +244,8 @@ The Cherish API is an interface for querying information from and enacting chang
 
 | Type | Screenshot |
 | --- | --- |
-| motion | ![](type_motion.png =320x569) |
-| twin | ![](type_twin.png =320x569) |
+| motion | ![](type_motion.png) |
+| twin | ![](type_twin.png) |
 
 
 ## Getting Started
