@@ -4,7 +4,7 @@ Table of Contents
 1. What is Cherish?
 2. Authentication
 3. Using API
-
+4. Appendix
 
 # 1. What is Cherish?
 
@@ -263,3 +263,16 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/cherish](https://s
 
 ![](oauth_postman.jpeg)
 
+
+# 4. Appendix
+
+If you have API key to authorize, you can use API key rather than access token. 
+
+Request Parameters in Header
+- X-Api-Key: The client must pass its API key in the x-api-key header through Basic HTTP authorization
+
+### Auth sample screenshot
+
+![](apikey_swaggerhub.jpeg)
+
+![](apikey_postman.jpeg)
