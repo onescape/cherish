@@ -266,10 +266,18 @@ You can use the YAML at [https://swaggerhub.com/apis/onescape/cherish](https://s
 
 # 4. Appendix
 
-If you have API key to authorize, you can use API key rather than access token. 
+If you have API key to authorize, you can use API key instead of access token. 
+
+
+## Step 1 - Using key
 
 Request Parameters in Header
 - X-Api-Key: The client must pass its API key in the x-api-key header through Basic HTTP authorization
+
+
+## Step 2 - Using API
+
+Please refer to '3. Using API' for this step.
 
 ### Auth sample screenshot
 
