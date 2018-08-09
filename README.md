@@ -210,7 +210,7 @@ Content-Type: application/json
 The tokens awarded to your app can be used in requests to the API.
 
 ```markdown
-https://api.onescape.io/SERVICE_NAME
+https://api.onescape.io/cherish
 ```
 
 The best way to communicate your access tokens, also known as bearer tokens, is by presenting them in a request's Authorization HTTP header:
@@ -274,7 +274,7 @@ If you have API key to authorize, you can use API key instead of access token.
 The API key awarded to your app can be used in requests to the API.
 
 ```markdown
-https://api.onescape.io/SERVICE_NAME
+https://api.onescape.io/cherish
 ```
 
 The best way to communicate your key is by presenting them in a request's X-Api-Key HTTP header:
