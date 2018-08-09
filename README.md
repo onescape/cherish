@@ -271,8 +271,20 @@ If you have API key to authorize, you can use API key instead of access token.
 
 ## Step 1 - Using key
 
-Request Parameters in Header
-- X-Api-Key: The client must pass its API key in the x-api-key header through Basic HTTP authorization
+The API key awarded to your app can be used in requests to the API.
+
+```markdown
+https://api.onescape.io/SERVICE_NAME
+```
+
+The best way to communicate your key is by presenting them in a request's X-Api-Key HTTP header:
+
+```markdown
+GET /RESOURCE_NAME
+X-Api-Key: API_KEY
+```
+
+This approach is required when using application/json with a write method.
 
 
 ## Step 2 - Using API
