@@ -46,7 +46,7 @@ The /oauth2/authorize endpoint only supports HTTPS GET. The user pool client typ
 
 The following values should be passed as GET parameters:
 
-- response_type (Required): The response type. Must be code or token. Indicates whether the client wants an authorization code (authorization code grant flow) for the end user or directly issues tokens for end user (implicit flow).
+- response_type (Required): The response type. Must be code. Indicates whether the client wants an authorization code (authorization code grant flow) for the end user.
 - client_id (Required): The Client ID. Must be a pre-registered client in the user pool and must be enabled for federation.
 - redirect_uri (Required): The URL to which the authentication server redirects the browser after authorization has been granted by the user. Must have been pre-registered with a client.
 - state (Optional but strongly recommended): An opaque value the clients adds to the initial request. The authorization server includes this value when redirecting back to the client. This value must be used by the client to prevent CSRF attacks.
@@ -90,7 +90,7 @@ If client_id and redirect_uri are valid but there are other problems with the re
 HTTP 1.1 302 Found Location: https://REDIRECT_URI?error=invalid_request
 ```
 
-If the client requests 'code' or 'token' in response_type but does not have permission for these requests, the Amazon Cognito authorization server should return unauthorized_client to client's redirect_uri, as follows:
+If the client requests 'code' in response_type but does not have permission for these requests, the Amazon Cognito authorization server should return unauthorized_client to client's redirect_uri, as follows:
 ```markdown
 HTTP 1.1 302 Found Location: https://REDIRECT_URI?error=unauthorized_client
 ```
